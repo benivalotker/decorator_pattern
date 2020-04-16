@@ -1,0 +1,1 @@
+from decorator_ import decorator_obj
