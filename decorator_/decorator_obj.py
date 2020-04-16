@@ -1,7 +1,7 @@
-from abc import abstractmethod
+from abc import abstractmethod, ABC
 
 # car interface
-class Car():
+class Car(ABC):
     @abstractmethod
     def operation(self):
         pass
